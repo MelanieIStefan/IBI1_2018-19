@@ -1,0 +1,47 @@
+\documentclass[pdflatex,a4paper]{article}
+
+\usepackage{pgffor, ifthen}
+\newcommand{\notes}[3][\empty]{%
+    \noindent \vspace{10pt}\\
+    \foreach \n in {1,...,#2}{%
+        \ifthenelse{\equal{#1}{\empty}}
+            {\rule{#3}{0.5pt}\\}
+            {\rule{#3}{0.5pt}\vspace{#1}\\}
+        }
+}
+
+\usepackage{graphicx}
+
+\usepackage[margin=3cm]{geometry}
+
+\title{Practical 3. Getting started with Git and GitHub}
+
+\author{MI Stefan}
+
+\date{IBI1, 2018/19}
+
+
+\usepackage{url}
+\usepackage{amsmath}
+
+\begin{document}
+
+\maketitle
+
+\section{Objectives}
+
+%% \begin{itemize}
+%%  \item
+%% Install the software packages you need for your course
+%% \item
+%% Practice describing problems and asking for help
+%% \end{itemize}
+
+
+
+
+
+
+\end{document}
+
+
