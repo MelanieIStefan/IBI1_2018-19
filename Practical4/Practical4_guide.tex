@@ -1,0 +1,48 @@
+\documentclass[pdflatex,a4paper]{article}
+
+\usepackage{pgffor, ifthen}
+\newcommand{\notes}[3][\empty]{%
+    \noindent \vspace{10pt}\\
+    \foreach \n in {1,...,#2}{%
+        \ifthenelse{\equal{#1}{\empty}}
+            {\rule{#3}{0.5pt}\\}
+            {\rule{#3}{0.5pt}\vspace{#1}\\}
+        }
+}
+
+\usepackage{graphicx}
+
+\usepackage[margin=3cm]{geometry}
+
+\title{Practical 4. Variables, Booleans, and loops}
+
+\author{MI Stefan}
+
+\date{IBI1, 2018/19}
+
+
+\usepackage{url}
+\usepackage{amsmath}
+
+\begin{document}
+
+\newcommand{\<}{\textless}
+\renewcommand{\>}{\textgreater}
+
+
+\maketitle
+
+\section{Learning objectives}
+
+
+\section{For your portfolio}
+
+The markers will look for and assess the following:
+
+
+
+You can add or edit things after the Practical session. We do not look at the commit date, we just want it all to be there!
+
+\end{document}
+
+
