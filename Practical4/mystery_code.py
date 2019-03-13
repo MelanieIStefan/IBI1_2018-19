@@ -10,14 +10,14 @@ from random import randint
 # e.g. ceil(4.2)=5
 from math import ceil
 
-p=0
-while p==0:
-    p=1
+p=False
+while p==False:
+    p=True
     n = randint(1,100)
     u = ceil(n**(0.5))
     for i in range(2,u+1):
         if n%i == 0:
-            p=0
+            p=False
 
 
      
