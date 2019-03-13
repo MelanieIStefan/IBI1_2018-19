@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer: 
+# Answer: print the prime numbers from 1 to 100
 
 # Import libraries
 # randint allows drawing a random number, 
